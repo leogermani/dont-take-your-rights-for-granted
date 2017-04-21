@@ -32,7 +32,7 @@ Exemplo:
             "Lei sinistra 3"
         ]
     },
-    "EUA": {
+    "USA": {
         "name": "Estados Unidos",
         "scale": 4,
         "description": "Nos EUA a legislação ....",
