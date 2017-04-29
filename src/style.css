@@ -1,0 +1,72 @@
+html, body, #mapid {
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+#info-button {
+
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    border-color: #73009d;
+    padding: 3px 15px;
+    font-size: 1.2em;
+    background-color: #91709d;
+    z-index: 1000;
+    color: white;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.panel {
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  color: #333;
+  position: fixed;
+  top: 0px;
+  left: -520px;
+  width: 430px;
+  height: 100%;
+  padding: 0px 0px 0px 30px;
+  overflow-y: auto;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.panel h1 {
+    margin-top: 15px;
+    padding-right: 40px;
+}
+
+.panel p {
+    padding-right: 15px;
+}
+
+.panel.on {
+  left: 0;
+}
+
+
+[class*='close-'] {
+  color: #777;
+  font: 14px/100% arial, sans-serif;
+  position: absolute;
+  right: 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: 15px;
+  font-size: 2em;
+}
+
+.close-thik:after {
+  content: '✖'; /* UTF-8 symbol */
+}
